@@ -1,0 +1,150 @@
+body {
+   position: relative;
+}
+
+
+/*HEAD STYLES*/ 
+
+.HEAD {
+    background-image: url(IMG/123.gif);
+    color: white;
+    width: 1500px;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+}
+
+#button{
+
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.menubar {
+    display: flex;
+}
+
+
+.pages > .menubar > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-family:OCR A Std, monospace;
+}
+
+.links {
+    height: 22px;
+
+    transition: border-bottom 1s;
+}
+
+.links a {
+    color: white;
+    text-decoration: white;
+    transition: color 0.5s;
+
+}
+
+.links:hover {
+    border-bottom: 20px solid green;
+}
+
+.links:hover a{
+    color: green;
+}
+
+/*FOOT STYLES*/
+.FOOT {
+    background-image: url(images/matrix.jpg);
+    color: white;
+    width: 1500px;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: OCR A Std, monospace;
+}
+
+.item-wrapperfoot{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*BODY*/
+
+.block {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+  
+}
+
+.block1 {
+    background-color: lightgray;
+    width: 490px;
+    height: 100%;
+    margin: 5px;
+}
+.text{
+    color: black;
+    font-family:OCR A Std, monospace ;
+    height: 300px;
+    
+}
+
+button {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+   font-family: Impact, fantasy;
+    
+}
+
+.link a {
+    color: green;
+    padding: 20px;
+    margin: 20px;
+}
+.linktext{
+    text-align: center;
+    color: black;
+    background-color: gray;
+    margin: 10px;
+
+}
+
+.link {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+.link1{
+    padding: 10px;
+}
+
+.link2 {
+    padding: 10px;
+}
+.image  {
+   text-align: center;
+ 
+
+}
+
+.video {
+    text-align: center;
+
+
+
+}
+

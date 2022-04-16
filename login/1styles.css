@@ -1,0 +1,149 @@
+/*HEAD STYLES*/ 
+.test123{
+    color: aqua;
+}
+.HEAD {
+    background-image: url(IMG/123.gif);
+    color: white;
+    /*
+    width: 1500px;
+    height: 30px;
+    */
+    width: 100%;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    /*
+    background-repeat: repeat-x;
+    bij % 
+    */
+
+}
+
+#button{
+
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+}
+
+.menubar {
+    display: flex;
+}
+
+
+.pages > .menubar > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-family: OCR A Std, monospace;
+}
+
+.links {
+    height: 22px;
+
+    transition: border-bottom 1s;
+}
+
+.links a {
+    color: white;
+    text-decoration: white;
+    transition: color 0.5s;
+
+}
+.links > .spec > a {
+    color: black;
+    text-decoration: black;
+    transition: color 0.5s;
+
+}
+
+
+
+.links:hover {
+    border-bottom: 20px solid green;
+}
+
+.links:hover a{
+    color: green;
+}
+
+
+/*FOOT STYLES*/
+.FOOT {
+    background-image: url(IMG/123.gif);
+    color: white;
+    width: 100%;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: OCR A Std, monospace;
+}
+
+.item-wrapperfoot{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/*BODY STYLES*/
+.BODY {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: white;
+}
+
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    width: 100%;
+
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+} 
+
+
+.portfolio-img-background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.learn {
+    padding-left: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: green;
+ 
+}
+
+.subtitle {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px;
+    background-position: 20%;
+    font-family: OCR A Std, monospace;
+
+}
+
+
+

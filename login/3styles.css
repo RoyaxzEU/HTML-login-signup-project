@@ -1,0 +1,116 @@
+/*HEAD STYLES*/ 
+
+.HEAD {
+    background-image: url(IMG/123.gif);
+    color: white;
+    width: 1500px;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+}
+
+#button{
+
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.menubar {
+    display: flex;
+}
+
+
+.pages > .menubar > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-family: OCR A Std, monospace;
+}
+
+.links {
+    height: 22px;
+
+    transition: border-bottom 1s;
+}
+
+.links a {
+    color: white;
+    text-decoration: white;
+    transition: color 0.5s;
+
+}
+
+.links:hover {
+    border-bottom: 20px solid green;
+}
+
+.links:hover a{
+    color: green;
+}
+
+/*FOOT STYLES*/
+.FOOT {
+    background-image: url(images/matrix.jpg);
+    color: white;
+    width: 1500px;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: OCR A Std, monospace;
+    
+}
+
+.item-wrapperfoot{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/*BODY STYLES*/
+.BODY {
+    margin: 10px;
+}
+.portfolio {
+    display: flex;
+}
+
+.con h1{
+   color: green;
+}
+
+.text {
+    color: black;
+    font-family: OCR A Std, monospace;
+}
+
+.img{
+   padding-left: 200px;
+}
+
+.con {
+    background-color: lightgray;
+    margin-right: 200px;
+    margin-left: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.googlemaps {
+    margin-right: 50px;
+}
+
+.con {
+    background-color: cadetblue;
+}
